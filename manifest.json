@@ -1,0 +1,11 @@
+{
+  "mainfest_version": 3,
+  "name": "NeverAgain",
+  "version": "1.1",
+  "description": "Now, whenever you create a new account, just copy those foolish infos into this Chrome Extension and, until your next forgetful moment, keep them as close as you can.",
+  "permissions": ["storage"],
+  "action":  {
+    "default_popup": "popup.html",
+    "default_icon": "icon.png"
+  }
+}
