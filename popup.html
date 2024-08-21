@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title style="color:white;">Never Again Forget</title>
+    <style>
+        body
+            {
+            font-family: Helvetica, sans-serif;
+            width: 200px;
+            padding: 20px;
+            color: #c6c6cc;
+            }
+        input[type="text"],
+        input[type="password"]
+            {
+
+            width: 100%;
+            margin-bottom: 10px;
+            padding: 5px;
+            align: center;
+            }
+        button
+            {
+            width: 100%;
+            padding: 8px;
+            background-color: #cfcfd4;
+            color: #fff;
+            border-radius: 6px;
+            border: 5px #000;
+            cursor: pointer;
+            margin-bottom: 5px;
+            }
+        .input-container
+        {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+    </style>
+
+</head>
+
+    <body>
+        <center>
+            <h2>
+                Track Your Password
+            </h2>
+        </center>
+    <input type="text" id="username" placeholder="Username" style="border-radius: 2px;">
+    <input type="password" id="password" placeholder="Password" style="border-radius: 2px;">
+    <button id="saveBtn">
+        Save
+    </button>
+    <button id="retrieveBtn">
+        Recall
+    </button>
+    <div id="status"></div>
+
+    <script src="notif.js"></script>
+    </body>
+    </html>
