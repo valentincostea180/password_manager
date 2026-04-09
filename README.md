@@ -1,7 +1,28 @@
-My final project for Harvard's CS50 is a Chrome extension called NeverAgain. This tool addresses the common issue of forgetting usernames or passwords immediately after creating an account. NeverAgain allows users to quickly save and access their credentials directly from the browser toolbar, simplifying the process of managing account information.
+# 🔐 NeverAgain (Chrome Extension)
 
-Inspired by CS50 problem sets, I initially planned to build a website but soon realized that a browser extension would offer a more practical solution. The development journey involved learning .json coding with support from freeCodeCamp and YouTube tutorials, along with occasional assistance from ChatGPT. Despite challenges, including troubleshooting persistent errors, the internet provided invaluable resources for implementing HTML and CSS.
+A Chrome extension built for CS50 that helps users quickly save and access account credentials, preventing the common issue of forgetting them right after creation.
 
-The project consists of three main components: the Manifest File (manifest.json), the Popup HTML (popup.html), and the JavaScript Script (notif.js). The .json file defines the extension's identity, permissions, and responses to user actions. The popup.html file creates a user-friendly interface for managing credentials, and popup.js handles user interactions, ensuring seamless data exchange with Chrome's storage.
+## 📌 Overview
 
-NeverAgain is a solution born from personal frustration, designed to make everyday tasks easier and more secure.
+NeverAgain provides a simple interface directly in the browser toolbar, allowing users to store and retrieve usernames and passwords with ease.
+
+### ⚙️ Features
+Save and access credentials from the browser popup
+Simple and user-friendly interface
+Uses Chrome storage for data persistence
+Quick access directly from the toolbar
+
+### 🧩 Structure
+manifest.json → defines extension configuration and permissions
+popup.html → user interface
+popup.js → handles logic and storage interaction
+
+### ▶️ How to Use
+Load the extension in Chrome (Developer Mode → Load unpacked)
+Click the extension icon in the toolbar
+Add and view credentials through the popup
+
+### 🧠 Concepts Used
+Chrome Extensions API
+JSON configuration
+Browser storage handling
