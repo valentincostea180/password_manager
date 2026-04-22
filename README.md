@@ -7,22 +7,23 @@ A Chrome extension built for CS50 that helps users quickly save and access accou
 NeverAgain provides a simple interface directly in the browser toolbar, allowing users to store and retrieve usernames and passwords with ease.
 
 ### ⚙️ Features
-Save and access credentials from the browser popup
-Simple and user-friendly interface
-Uses Chrome storage for data persistence
-Quick access directly from the toolbar
+* Save and access credentials from the browser popup
+* Simple and user-friendly interface
+* Uses Chrome storage for data persistence
+* Quick access directly from the toolbar
 
 ### 🧩 Structure
-manifest.json → defines extension configuration and permissions
-popup.html → user interface
-popup.js → handles logic and storage interaction
+* manifest.json → defines extension
+* configuration and permissions
+* popup.html → user interface
+* popup.js → handles logic and storage interaction
 
 ### ▶️ How to Use
-Load the extension in Chrome (Developer Mode → Load unpacked)
-Click the extension icon in the toolbar
-Add and view credentials through the popup
+* Load the extension in Chrome (Developer Mode → Load unpacked)
+* Click the extension icon in the toolbar
+* Add and view credentials through the popup
 
 ### 🧠 Concepts Used
-Chrome Extensions API
-JSON configuration
-Browser storage handling
+* Chrome Extensions API
+* JSON configuration
+* Browser storage handling
